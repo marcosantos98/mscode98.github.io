@@ -19,6 +19,6 @@ Toda a documentação relativa aos projectos em [tabem.pt](/)
 
 1. TOC
 {:toc}
-1. [SVM - Smoll Virtual Machine](/docs/svm/)
+1. [SVM - Smoll Virtual Machine](/docs/svm)
 
 ---
