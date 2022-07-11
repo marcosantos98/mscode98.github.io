@@ -1,0 +1,75 @@
+title: tabem.pt
+author: Marco Santos
+#url:  # root address of the site
+description: > # description of the site (multiple lines allowed)
+  tabem.pt é um portfólio pessoal criado com um intuito de facilmente redirecionar pessoas interessadas 
+  nos meus projetos e também para mostrar as minhas "skills" a terceiros.
+
+permalink: /:slug
+
+favicon: "./logo.png" # relative path to site's favicon
+
+search_enabled: true
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 2
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 3
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 3
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "mscode98 on Github":
+    - "//github.com/mscode98"
+
+color_scheme: nil
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "início..." # customize text for homepage link in post layout
+  date_format: "%d-%m-%Y" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: false # show horizontal navbar
+  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_copyright: true # show copyright notice in footer
+  # following keys are using to create home layout
+  show_projects: true # show projects as cards, add in _data/home.yml
+  show_blog: false # show blog posts added in _posts
+  show_old_projects: false # show old projects as cards, add in _data/home.yml
+  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
+  # options for "home" page
+  home:
+    title_projects: Portfólio
+    title_misc_list: Details
+    title_blog: Blog
+    title_old_projects: Old Projects
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-soopr-seo-tag

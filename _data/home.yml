@@ -1,0 +1,20 @@
+navbar_entries:
+  - title: sobre
+    url: about
+
+project_entries:
+  - title: SVM
+    url: /docs/svm
+    desc: Smoll Virtual Machine escrito em C.
+    highlight: WIP
+  #- title: lson
+   # url: /docs/lson
+    #desc: Json Parser escrito em Java.
+
+footer_entries:
+
+  - title: github
+    url: https://github.com/mscode98
+  
+  - title: linkedin
+    url: https://www.linkedin.com/in/marco-santos-a4278b193/
